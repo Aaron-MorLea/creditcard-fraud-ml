@@ -1,4 +1,4 @@
-# 💳 Credit Card Fraud Detection - ML System
+#  Credit Card Fraud Detection - ML System
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104.0+-green.svg)](https://fastapi.tiangolo.com/)
@@ -9,7 +9,7 @@ Sistema completo de detección de fraude en tarjetas de crédito utilizando Mach
 
 ---
 
-## 📋 Tabla de Contenidos
+##  Tabla de Contenidos
 
 - [Arquitectura](#-arquitectura)
 - [Características](#-características)
@@ -26,13 +26,13 @@ Sistema completo de detección de fraude en tarjetas de crédito utilizando Mach
 
 ---
 
-## 🏗️ Arquitectura
+##  Arquitectura
 
 ```
-┌─────────────┐    HTTP     ┌─────────────┐    SQLAlchemy    ┌─────────────┐
-│  Streamlit  │ ───────> │  FastAPI    │ ────────────> │ PostgreSQL  │
-│  Frontend   │ <──────  │  Backend    │ <──────────── │  Database  │
-└─────────────┘    JSON   └─────────────┘               └─────────────┘
+┌─────────────┐    HTTP      ┌─────────────┐    SQLAlchemy    ┌─────────────┐
+│  Streamlit  │ ───────>     │  FastAPI    │ ────────────>    │ PostgreSQL  │
+│  Frontend   │ <──────      │  Backend    │ <────────────    │  Database   │
+└─────────────┘    JSON      └─────────────┘                  └─────────────┘
                               │
                               v
                      ┌─────────────┐
@@ -44,34 +44,34 @@ Sistema completo de detección de fraude en tarjetas de crédito utilizando Mach
 
 ---
 
-## ✨ Características
+##  Características
 
-### 🤖 Machine Learning
+###  Machine Learning
 - **Autoencoder Neuronal (PyTorch)**: Detección de anomalías basada en reconstrucción
 - **XGBoost**: Clasificador gradient boosting optimizado
 - **Preprocesamiento**: Estandarización con StandardScaler
 - **Evaluación**: Métricas completas (Precision, Recall, F1-Score, ROC-AUC)
 
-### 🔌 API REST (FastAPI)
+###  API REST (FastAPI)
 - Endpoints para predicción de fraude
 - Documentación automática (Swagger UI)
 - CORS habilitado para integración frontend
 - Health check endpoint
 
-### 📊 Dashboard (Streamlit)
+###  Dashboard (Streamlit)
 - Visualización interactiva de métricas
 - Gráficas de curvas ROC y Precision-Recall
 - Prueba de transacciones en tiempo real
 - Comparación de modelos
 
-### 💾 Base de Datos (PostgreSQL)
+###  Base de Datos (PostgreSQL)
 - Almacenamiento de predicciones
 - Historial de transacciones
 - Integración con SQLAlchemy
 
 ---
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 creditcard-fraud-ml/
@@ -112,7 +112,7 @@ creditcard-fraud-ml/
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 ### Backend & API
 - **Python 3.10+**
@@ -140,7 +140,7 @@ creditcard-fraud-ml/
 
 ---
 
-## 🚀 Instalación
+##  Instalación
 
 ### Prerrequisitos
 - Python 3.10 o superior
@@ -268,7 +268,7 @@ Response:
 
 ---
 
-## 📊 Métricas de Evaluación
+##  Métricas de Evaluación
 
 Los modelos son evaluados con métricas estándar para datasets desbalanceados:
 
@@ -283,7 +283,7 @@ Las métricas completas se encuentran en: `models/artifacts/metrics/eval_report.
 
 ---
 
-## 💡 Ejemplo de Uso
+##  Ejemplo de Uso
 
 ### Usando curl
 ```bash
@@ -324,7 +324,7 @@ print(f"Probabilidad: {result['probability']}")
 
 ---
 
-## 📈 Dataset
+##  Dataset
 
 Este proyecto utiliza el dataset **Credit Card Fraud Detection** de Kaggle:
 - **Fuente**: [Kaggle Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)
@@ -335,7 +335,7 @@ Este proyecto utiliza el dataset **Credit Card Fraud Detection** de Kaggle:
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 Para probar la API:
 ```bash
@@ -349,7 +349,7 @@ pytest tests/
 
 ---
 
-## 📂 Contribución
+##  Contribución
 
 1. Fork el proyecto
 2. Crea tu rama de características (`git checkout -b feature/nueva-caracteristica`)
@@ -359,22 +359,21 @@ pytest tests/
 
 ---
 
-## 📄 Licencia
+##  Licencia
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
 
 ---
 
-## 👤 Autor
+##  Autor
 
 **Carlos Aaron Morales Leal**
 - GitHub: [@aaronmorales](https://github.com/aaronmorales)
-- LinkedIn: [aaron-morales](https://linkedin.com/in/aaron-morales)
 - Email: moralesaaron1234@outlook.com
 
 ---
 
-## 🙏 Agradecimientos
+##  Agradecimientos
 
 - Dataset proporcionado por [ULB (Université Libre de Bruxelles)](http://mlg.ulb.ac.be)
 - Kaggle por hospedar el dataset
@@ -382,7 +381,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ---
 
-## 📌 Notas
+##  Notas
 
 - Este sistema es para fines educativos y de investigación
 - En producción, asegura implementar autenticación y autorización
@@ -391,7 +390,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ---
 
-## 🔗 Enlaces Útiles
+##  Enlaces Útiles
 
 - [Documentación FastAPI](https://fastapi.tiangolo.com/)
 - [Documentación PyTorch](https://pytorch.org/docs/)
