@@ -194,7 +194,7 @@ python models/evaluate_models.py
 
 ---
 
-## 🎮 Uso
+##  Uso
 
 ### Iniciar la API (Backend)
 ```bash
@@ -212,7 +212,7 @@ El dashboard estará disponible en: http://localhost:8501
 
 ---
 
-## 🤖 Modelos ML
+##  Modelos ML
 
 ### Autoencoder (PyTorch)
 Red neuronal no supervisada para detección de anomalías:
@@ -227,7 +227,7 @@ Algoritmo de gradient boosting para clasificación:
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Health Check
 ```http
