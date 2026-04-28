@@ -1,6 +1,111 @@
-.venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.manifest
+*.spec
+
+# Virtual Environment
+.venv/
+env/
+ENV/
+venv/
+ENV/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.editorconfig
+.settings/
+.project
+.pydevproject
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment variables
 .env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Data files (raw data, large datasets)
 data/raw/
-models/artifacts/
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+
+# Model artifacts (trained models - can be large)
+models/artifacts/*.pkl
+models/artifacts/*.joblib
+models/artifacts/*.pt
+models/artifacts/*.pth
+models/artifacts/*.sav
+models/artifacts/*.model
+
+# Metrics and results (can be regenerated)
+models/artifacts/metrics/*.json
+
+# PyTorch
+*.pth
+*.pt
+
+# Streamlit
+.streamlit/
+
+# Test
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Docker
+docker-compose.override.yml
+
+# Custom
+.DS_Store
+*.bak
+*.backup
